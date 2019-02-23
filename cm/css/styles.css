@@ -42,6 +42,23 @@ body {
   background-color: white;
 
 }
+.card-group {
+  float: left;
+  margin: 25px 15px 25px 15px;
+}
+
+.cliearfix {
+  clear:left;
+}
+
+.card-wrap {
+
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  display: inline-block;
+  text-align: center;
+}
 
 .card-image {
   width: 100%;

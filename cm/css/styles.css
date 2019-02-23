@@ -1,0 +1,76 @@
+@font-face {
+  src: url("../fonts/BMJUA_otf.otf");
+  font-family: "JUA";
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: "JUA";
+  margin: 0;
+  background-color: #F0E8D9;
+}
+
+
+.container {
+  text-align: center;
+  color: #58595B;
+}
+
+
+.title {
+  font-size: 64px;
+  margin-top: 75px;
+  margin-bottom: 30px;
+}
+
+
+.sub-title {
+  font-size: 32px;
+  margin-bottom: 75px;
+}
+
+
+.card {
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  margin: 0px auto 75px auto;
+  background-color: white;
+
+}
+
+.card-image {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px 10px 0 0;
+}
+
+
+.card-contents {
+  height: 50%;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 32px;
+}
+
+.card-sub {
+  font-size: 16px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.link {
+  font-size: 16px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #0000EE;
+}
